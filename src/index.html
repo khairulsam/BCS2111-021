@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tunisia</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    
+</head>
+
+<style>
+.search-control {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px ;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.search-control:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+</style>
+<body>
+  
+    <div class="site-main-wrapper">
+        <button class="main">
+            <img src="./images/main.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Weather</a></li>
+                <li><a href="#">Meal</a></li>
+                
+            </ul>
+        </div>
+        <header>
+  <div class="container">
+    <!-- Navigation menu -->
+    <nav id="main-nav" class="flex items-center justify-between">
+      <div class="left flex items-center">
+        <!--  logo -->
+        <div class="branding">
+          <img src="./images/logo.svg" alt="">
+        </div>
+        <!-- Navigation links -->
+        <div>
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#Places">Places</a>
+          <a href="#meals">Weather</a>
+          <a href="#foods">Meal</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero section -->
+    <div class="hero flex items-center justify-between">
+      <!-- Left side with image -->
+      <div class="left flex-1 flex justify-center">
+        <img src="./images/logo.jpg" alt="">
+      </div>
+      <!-- Right side with content -->
+      <div class="right flex-1">
+        <h1>Welcome to <span>Tunisia</span></h1>
+        <p>
+          Tunisia is a country located in North Africa. It has a rich history that includes Phoenician, Roman, and Arab influences,
+          as well as a period of French colonialism. The country has a diverse culture that is influenced by its history and geography,
+          with music, cuisine, and arts being important aspects. Tunisia is known for its beautiful beaches, ancient ruins, and stunning desert landscapes.
+          The country has a population of approximately 12 million people and is governed by a presidential system. Its economy is based on a mix of agriculture,
+          manufacturing, and meals, with tourism being a major contributor to the economy.
+        </p>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/waw.jpg" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Tunisia</span></h1>
+                    <p>Tunisia is a country in North Africa that offers a unique blend of history, culture, natural beauty, and warm hospitality. With a population of around 11.8 million people,
+                       Tunisia has a rich history that has been shaped by the Berber, Phoenician, Roman, and Arab civilizations. Visitors to Tunisia can explore ancient ruins such as the UNESCO 
+                       World Heritage Site of Carthage, the Bardo Museum in Tunis, and the Medina of Tunis. The country's diverse landscapes include the Sahara Desert, the Atlas Mountains, and a
+                        stunning coastline along the Mediterranean Sea, offering visitors ample opportunities for outdoor activities such as hiking, swimming, and exploring.</p>
+
+                      <p>Tunisia is also known for its delicious cuisine, which is a mix of Mediterranean and North African flavors. Some popular dishes include couscous, brik (a fried pastry filled
+                       with egg and tuna), and merguez (spicy sausages). Visitors can enjoy the country's cuisine at local restaurants or by visiting one of Tunisia's many outdoor markets.</p>
+                   
+                </div>
+            </div>
+        </section>
+        <section id="Places" class="Places">
+          <div class="container">
+              <h1 class="section-heading"><span>Best</span> Places</h1>
+
+              
+  <!-- The fourth card displaying the information about E1 Djem Amphitheater-->
+              <div class="card-wrapper">
+                  <div class="card">
+                      <div class="img-wrapper">
+                          <img src="./images/g1.jpg" alt="">
+                      </div>
+                      <div class="card-content">
+                          <a href="#">
+                              <h1>El Djem Amphitheater</h1>
+                          </a>
+                          <span> 3rd century</span>
+                          <p>The walls of the mighty Roman amphitheater of El Djem dwarf the surrounding modern town.
+
+                            This incredibly well-preserved Roman relic is Tunisia's big sightseeing highlight, one of the most
+                             popular things to do on day trips from the coastal resorts, and one of the best examples of amphitheater 
+                             architecture left standing in the world.</p>
+                          <a href="https://www.planetware.com/tourist-attractions-/el-djem-tun-md-ed.htm">Read More</a>
+                      </div>
+                  </div>
+                    <!-- The fourth card displaying the information about Djerba -->
+                  <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/g2.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Djerba</h1>
+                        </a>
+                        <span>9th or 8th century</span>
+                        <p>If you're looking for the picture-perfect beach escape, then the island of Djerba 
+                          checks all the right boxes.
+
+                          The island town of Houmt Souk is the main point of interest off the beach, with an 
+                          old town district that is a muddle of whitewashed houses.</p>
+                        <a href="https://www.planetware.com/tourist-attractions-/djerba-tun-me-d.htm">Read More</a>
+                    </div>
+                </div>
+                  <!-- The fourth card displaying the information about Carthage -->
+                  <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/g3.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Carthage</h1>
+                        </a>
+                        <span>9th century</span>
+                        <p>Once Rome's major rival, Carthage was the city of the seafaring Phoenicians 
+                          forever memorialized in the Punic Wars.
+
+                          The atmospheric ruins of this ancient town now sit beside the sea amid the
+                           suburbs of Tunis, a warning that even the greatest cities can be reduced to rubble..</p>
+                        <a href="https://www.planetware.com/tourist-attractions-/carthage-tun-tc-c.htm">Read More</a>
+                    </div>
+                </div>
+                 <!-- The fourth card displaying the information about The National Bardo Museum -->
+                  <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/g4.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="#">
+                             
+                            <h1>The National Bardo Museum</h1>
+                        </a>
+                        <span>19th-century</span>
+                        <p>Even non-museum fans can't fail to be impressed at the massive haul 
+                          of beautiful mosaics exhibited inside the Bardo.
+
+                          This is one of North Africa's top museums, and it houses one of the 
+                          world's most important mosaic collections, all curated beautifully.</p>
+                        <a href="https://www.planetware.com/tourist-attractions-/tunis-tun-tc-t.htm">Read More</a>
+                    </div>
+                </div>
+                  <div class="card">
+                      <div class="img-wrapper">
+                          <img src="./images/g5.jpg" alt="">
+                      </div>
+                      <div class="card-content">
+                          <a href="#">
+                              <h1>Sidi Bou Said</h1>
+                          </a>
+                          <span>13th-century</span>
+                          <p>Impossibly cute, and amazingly photogenic, Sidi Bou Said is a 
+                            clifftop village of petite dimensions that seem to have fallen
+                             off an artist's canvas.
+
+                            Unsurprisingly, artists have feted this little hamlet, now a
+                             high-class suburb of the capital Tunis, for decades.</p>
+                          <a href="https://www.planetware.com/tourist-attractions-/sidi-bou-said-tun-tc-sb.htm">Read More</a>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="img-wrapper">
+                          <img src="./images/g6.jpg" alt="">
+                      </div>
+                      <div class="card-content">
+                          <a href="https://www.bing.com/ck/a?!&&p=ddf3db036170423eJmltdHM9MTY3NzcxNTIwMCZpZ3VpZD0yN2FlY2IyMS00OGVhLTZlYjAtMTg0MC1kOThhNDlhZjZmZjImaW5zaWQ9NTE5Nw&ptn=3&hsh=3&fclid=27aecb21-48ea-6eb0-1840-d98a49af6ff2&psq=Grand+Erg+Oriental&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvR3JhbmRfRXJnX09yaWVudGFs&ntb=1">
+                              <h1>Grand Erg Oriental</h1>
+                          </a>
+                          <span>-</span>
+                          <p>Tunisia's vast Sahara covers much of the country's interior,
+                             and the most beautiful corner of the desert is the field of 
+                             sand dunes known as the Grand Erg Oriental.
+
+                            These poetically beautiful dunes are a surreal and gorgeous 
+                            landscape of huge waves, shaped by the ever-shifting desert sands.</p>
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+        
+      <section id="meals" class="meals" >
+        <div class="container">
+          <div class="weather-wrapper">
+            <div class="weather-search">
+              <h2 class="title">Lookup for weather in Tunisia</h2>
+              <div class="weather-search-box">
+                <select class="search-control" id="search-input">
+                  <option value="">Select a city</option>
+                  <option value="Ariana">Ariana</option>
+                  <option value="Beja">Beja</option>
+                  <option value="Ben Arous">Ben Arous</option>
+                  <option value="Bizerte">Bizerte</option>
+                  <option value="Gabes">Gabes</option>
+                  <option value="Gafsa">Gafsa</option>
+                  <option value="Jendouba">Jendouba</option>
+                  <option value="Kairouan">Kairouan</option>
+                  <option value="Kasserine">Kasserine</option>
+                  <option value="Kebili">Kebili</option>
+                  <option value="Kef">Kef</option>
+                  <option value="Mahdia">Mahdia</option>
+                  <option value="Manouba">Manouba</option>
+                  <option value="Medenine">Medenine</option>
+                  <option value="Monastir">Monastir</option>
+                  <option value="Nabeul">Nabeul</option>
+                  <option value="Sfax">Sfax</option>
+                  <option value="Sidi Bouzid">Sidi Bouzid</option>
+                  <option value="Siliana">Siliana</option>
+                  <option value="Sousse">Sousse</option>
+                  <option value="Tataouine">Tataouine</option>
+                  <option value="Tozeur">Tozeur</option>
+                  <option value="Tunis">Tunis</option>
+                  <option value="Zaghouan">Zaghouan</option>
+                </select>
+                <button type="submit" class="search-btn btn" id="search-btn">
+                  <i class="fas fa-search"></i> Search
+                </button>
+              </div>
+            </div>
+            <div class="weather-result">
+              <h2 class="title">Your Search Results:</h2>
+              <div id="weather">
+                <div class="weather-item">
+                  <div class="weather-name">
+                    <h3>City Name</h3>
+                  </div>
+                  <div class="weather-details">
+                    <p>Temperature: <span class="temp"></span></p>
+                    <p>Min Temperature: <span class="temp_min"></span></p>
+                    <p>Max Temperature: <span class="temp_max"></span></p>
+                    <p>Weather: <span class="weather"></span></p>
+                    <p>Humidity: <span class="humidity"></span></p>
+                    <p>Wind: <span class="wind"></span></p>
+                    <p>Pressure: <span class="pressure"></span></p>
+                    <p>Sunset: <span class="sunset"></span></p>
+                    <p>Sunrise: <span class="sunrise"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      </section>
+      
+
+        <section id="foods" class="foods">
+            <div class="container">
+                <h1 class="section-heading"><span>Tunisia</span> Best Meal</h1>
+
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Cashew Ghoriba Biscuits </span>
+                            
+                        </div>
+                        <img src="./images/m1.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Cashew Ghoriba Biscuits</span>
+                            
+                        </div>
+                        <img src="./images/m2.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Kafteji</span>
+                            
+                        </div>
+                        <img src="./images/m3.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Keleya Zaara</span>
+                            
+                        </div>
+                        <img src="./images/m4.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Leblebi Soup</span>
+                            
+                        </div>
+                        <img src="./images/m5.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Tuna and Egg Briks</span>
+                            
+                        </div>
+                        <img src="./images/m6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="meals" class="meals">
+            
+            <div class="container">
+                <h2 class="title">Explore more about Tunisia Meal!</h2>
+              <form id="meal-form">
+                <label for="meal-select">Select a meal:</label>
+                <select id="meal-select" name="meal">
+                  <option value="">--Please select--</option>
+                </select><br>
+                <button type="submit">Get Details</button>
+            
+              </form>
+              <div id="meal-details">
+                <div class="meal-image-container">
+                  
+                </div>
+                <div class="meal-info-container">
+
+                    <img id="meal-image" src="" alt=""><br>
+                    <h2>Name:</h2>
+                  <h2 id="meal-name"></h2>
+                  <h3>type:</h3>
+                  <p id="meal-category"></p>
+                  <h3>instructions:</h3>
+                  <div id="meal-instructions"></div>
+                  <div class="meal-video-container">
+                    <a id="meal-youtube-link" href="" target="_blank">Watch Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+
+        <footer>
+            <img class="footer-logo" src="./images/logo-2.svg" alt="">
+           
+            <div class="copyright">
+                Copyright 2023 © Ultraman sam
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
